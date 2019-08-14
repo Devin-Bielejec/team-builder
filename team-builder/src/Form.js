@@ -9,7 +9,9 @@ const Form = (props) => {
 
     const handleSubmit = event => {
         event.preventDefault();
+        console.log(props);
         props.addTeamMember(user);
+        console.log(props);
     };
 
     return (
